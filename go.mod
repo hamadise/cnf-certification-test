@@ -22,7 +22,7 @@ require (
 	github.com/onsi/ginkgo/v2 v2.1.4
 	github.com/openshift/client-go v0.0.0-20211209144617-7385dd6338e3
 	github.com/operator-framework/api v0.14.0
-	github.com/operator-framework/operator-lifecycle-manager v0.20.0
+	github.com/operator-framework/operator-lifecycle-manager v3.11.0+incompatible
 	github.com/pkg/errors v0.9.1 // indirect
 	helm.sh/helm/v3 v3.8.2
 	k8s.io/api v0.23.6
@@ -47,6 +47,7 @@ require (
 	github.com/cespare/xxhash/v2 v2.1.2 // indirect
 	github.com/chai2010/gettext-go v0.0.0-20160711120539-c6fed771bfd5 // indirect
 	github.com/containerd/containerd v1.6.1 // indirect
+	github.com/coreos/go-semver v0.3.0 // indirect
 	github.com/cyphar/filepath-securejoin v0.2.3 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/docker/cli v20.10.11+incompatible // indirect
@@ -104,6 +105,7 @@ require (
 	github.com/modern-go/reflect2 v1.0.2 // indirect
 	github.com/monochromegane/go-gitignore v0.0.0-20200626010858-205db1a8cc00 // indirect
 	github.com/morikuni/aec v1.0.0 // indirect
+	github.com/onsi/ginkgo v1.16.5 // indirect
 	github.com/opencontainers/go-digest v1.0.0 // indirect
 	github.com/opencontainers/image-spec v1.0.2 // indirect
 	github.com/peterbourgon/diskv v2.0.1+incompatible // indirect
@@ -147,7 +149,6 @@ require (
 	k8s.io/kubectl v0.23.5 // indirect
 	k8s.io/utils v0.0.0-20211116205334-6203023598ed // indirect
 	oras.land/oras-go v1.1.1 // indirect
-	sigs.k8s.io/controller-runtime v0.11.0 // indirect
 	sigs.k8s.io/json v0.0.0-20211020170558-c049b76a60c6 // indirect
 	sigs.k8s.io/kustomize/api v0.10.1 // indirect
 	sigs.k8s.io/kustomize/kyaml v0.13.0 // indirect
